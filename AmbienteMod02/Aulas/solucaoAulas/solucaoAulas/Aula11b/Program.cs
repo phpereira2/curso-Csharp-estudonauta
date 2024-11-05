@@ -17,6 +17,7 @@ namespace Aula11b
             string tipo = num % 2 == 0 ? "PAR" : "ÍMPAR";
 
             Console.WriteLine($"O número {num:D} que você digitou é {tipo}!");
+            Console.ReadKey();
         }
     }
 }
